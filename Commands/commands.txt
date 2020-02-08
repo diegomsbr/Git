@@ -1,0 +1,31 @@
+# To show who are you to git
+
+git config --global user.email "your email"
+git config --global user.name "your name"
+
+
+!!!! Warning
+Notice that the correct parameter is user.email not user.mail
+If you try to use user.mail the fallowing error will be show to you
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'xxxxxxxxx@xxxxxxxxxx.(none)')
+
+
+
+# To Unstage all files
+
+git reset
+
+# To unstage file
+
+git reset <file>
